@@ -1247,6 +1247,7 @@ h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 3px;
 }
 .h1,
 h1 {
@@ -10253,7 +10254,8 @@ footer > div > div:nth-of-type(3) {
 .services-card-wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 50px;
 }
 .services-card {
   background: #2b2b2b;
@@ -10677,22 +10679,22 @@ body {
   object-fit: cover;
 }
 .flex-container .port-container-1:before {
-  background-image: url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063618/portfolio/new-port-1_fdfoiu.jpg);
+  background-image: url("media/clivia.PNG");
 }
 .flex-container .port-container-2:before {
-  background-image: url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063618/portfolio/new-port-2_uwlgpl.jpg);
+  background-image: url("media/twitter.png");
 }
 .flex-container .port-container-3:before {
-  background-image: url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063627/portfolio/new-port-3_cxj8pl.jpg);
+  background-image: url("media/pokemon.png");
 }
 .flex-container .port-container-4:before {
-  background-image: url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063691/portfolio/new-port-4_dlvmpd.jpg);
+  background-image: url("media/home-api.png");
 }
 .flex-container .port-container-5:before {
-  background-image: url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063695/portfolio/new-port-5_f6hpjs.jpg);
+  background-image: url("media/tweedcard.png");
 }
 .flex-container .port-container-6:before {
-  background-image: url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063692/portfolio/new-port-6_uuwkso.jpg);
+  background-image: url("media/inprogress.png");
 }
 .flex-container .profile-container:hover:before {
   opacity: 0;
