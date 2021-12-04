@@ -4,10 +4,357 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" type=image/svg href="media/logo.svg" />
+    <title>Jose Heredia | Full-Stack Web Developer</title>
   </head>
-  <body>
-    <p>Hello world!</p>
-    <img src="media/logo.svg" alt="" />
+  <body data-spy=scroll data-target=.navbar data-offset=200>
+    <header class=header-section id=home>
+      <nav class="navbar navbar-expand-md px-0 main-nav sticky nav-index" data-sticky-wrap=true data-sticky-class=stuck>
+        <div class="container px-4">
+          <a class=navbar-brand href="index.html#home">
+            <img src="media/logo.svg" alt=""/>
+          </a>
+          <button class="navbar-toggler open-nav" type=button aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+            <div class=toggle-menu-wrapper>
+              <div class=toggle-menu>
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+              </div>
+            </div>
+          </button>
+          <div class="collapse navbar-collapse" id=navbarSupportedContent>
+            <ul class="navbar-nav ml-md-auto">
+              <li class=nav-item>
+                <a class=nav-link href="index.html#home">Home
+                  <span class=sr-only>(current)</span>
+                </a>
+              </li>
+              <li class=nav-item>
+                <a class=nav-link href="index.html#about">About</a>
+              </li>
+              <li class=nav-item>
+                <a class=nav-link href="index.html#services">Services</a>
+              </li>
+              <li class=nav-item>
+                <a class=nav-link href="index.html#portfolio">Portfolio</a>
+              </li>
+              <li class=nav-item>
+                <a class=nav-link href="index.html#contact">Contact Me</a>
+              </li>
+              <li class=nav-item>
+                <a class="nav-link case-studies" href="caseStudies.html">Case Studies</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class=container>
+        <div class=hero-wrapper>
+          <div class=hero-text-wrapper>
+            <p class=hi> Hi There &#128075; I'm </p>
+            <h1>Jose Heredia</h1>
+            <h3>Full-Stack Web Developer &#128104;&#8205;&#128187;</h3>
+            <p class=info> I’m a Junior Full-Stack Developer with excellent development skills.</p>
+            <a href="index.html#contact">
+              <span>Hire Me</span>
+            </a>
+          </div>
+          <div class=hero-image-wrapper>
+            <img src=https://static.vecteezy.com/system/resources/previews/001/823/030/large_2x/man-with-computer-and-people-avatars-on-screen-in-video-chat-design-free-vector.jpg alt=hero-image />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="about-section container" id=about>
+        <div class=image-div data-aos=fade-right>
+          <img src=https://365psd.com/images/istock/previews/5331/53311794-call-center-male-avatar-icon.jpg alt="jose heredia profile picture" loading=lazy />
+        </div>
+        <div class=about-text-div>
+          <div class="header about-header">
+            <div class=inner>
+              <div data-aos=fade-up>
+                <span>Who I am</span>
+                <span class=line></span>
+              </div>
+              <h3 data-aos=fade-up>About Me</h3>
+            </div>
+          </div>
+          <div class=text>
+            <p data-aos=fade-up>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facilis delectus libero illo laboriosam, alias, ex ullam dolorum ipsum quo repudiandae error, fugit officiis magni. Nemo ab repellat suscipit eum!</p>
+            <p data-aos=fade-up>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facilis delectus libero illo laboriosam, alias, ex ullam dolorum ipsum quo repudiandae error, fugit officiis magni. Nemo ab repellat suscipit eum!</p>
+            <p data-aos=fade-up>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias facilis delectus libero illo laboriosam, alias, ex ullam dolorum ipsum quo repudiandae error, fugit officiis magni. Nemo ab repellat suscipit eum!</p>
+          </div>
+          <a href="index.html" data-aos=fade-up>
+            <span>Download CV</span>
+          </a>
+        </div>
+      </section>
+      <section class="services-section container" id=services>
+        <div class="header services-header">
+          <div class=inner>
+            <div data-aos=fade-up>
+              <span>What I do</span>
+              <span class=line></span>
+            </div>
+            <h3 data-aos=fade-up>My Services</h3>
+          </div>
+        </div>
+        <div class=services-card-wrapper>
+          <div class="services-card interface" data-aos=fade-up data-aos-delay=200>
+            <div>
+              <img src="media/react-logo.svg" alt=""/>
+            </div>
+            <h5>Product Design</h5>
+            <p> I work with certain design tools to create high-fidelity designs and prototypes. I design accessible and usable products which aid business growth.</p>
+          </div>
+          <div class="services-card development" data-aos=fade-up data-aos-delay=400>
+            <div>
+              <img src="media/brackets.svg" alt=""/>
+            </div>
+            <h5>Website Development</h5>
+            <p> I use various web technologies to develop attractive websites which converts visitors to customers. I develop creative and responsive website layouts. </p>
+          </div>
+          <div class="services-card marketing" data-aos=fade-up data-aos-delay=600>
+            <div>
+              <img src="media/digital-marketing.svg" alt=""/>
+            </div>
+            <h5>Digital Marketing</h5>
+            <p> I identify and evaluates new digital technologies and use web analytics tools to measure site traffic to better optimize marketing campaigns. </p>
+          </div>
+        </div>
+      </section>
+      <section class="workflow-section container">
+        <div class="header workflow-header">
+          <div class=inner>
+            <div data-aos=fade-up>
+              <span>Work Flow</span>
+              <span class=line></span>
+            </div>
+            <h3 data-aos=fade-up>My Work Process</h3>
+          </div>
+        </div>
+        <div class=cards-wrapper>
+          <div class="card idea" data-aos=zoom-in data-aos-delay=200>
+            <img src="media/work-idea.svg" alt=""/>
+            <h6>Discover</h6>
+            <p>I conduct user research to identify the problem I want to solve.</p>
+          </div>
+          <div class="card plan" data-aos=zoom-in data-aos-delay=400>
+            <img src="media/work-plan.svg" alt=""/>
+            <h6>Define</h6>
+            <p>I brainstorm possible design solutions to the identified problem.</p>
+          </div>
+          <div class="card sketch" data-aos=zoom-in data-aos-delay=600>
+            <img src="media/work-sketch.svg" alt=""/>
+            <h6>Ideate</h6>
+            <p>I create wireframes and sketches of the product I’m about to design.</p>
+          </div>
+          <div class="card design" data-aos=zoom-in data-aos-delay=800>
+            <img src="media/work-design.svg" alt=""/>
+            <h6>Prototype</h6>
+            <p>I create high fidelity design and prototype the screens.</p>
+          </div>
+          <div class="card design" data-aos=zoom-in data-aos-delay=1000>
+            <img src="media/implement.svg" alt=""/>
+            <h6>Implement</h6>
+            <p>After designing, I deliver for implementation.</p>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio-section container" id=portfolio>
+        <div class="header portfolio-header">
+          <div class=inner>
+            <div data-aos=fade-up>
+              <span>My Project</span>
+              <span class=line></span>
+            </div>
+            <h3 data-aos=fade-up>My Portfolio</h3>
+          </div>
+        </div>
+        <div class=flex-container data-aos=fade>
+          <div class="profile-container port-container-1">
+            <div class=profile-wrapper>
+              <div class=profile-card>
+                <h4>Project 1</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita perspiciatis repudiandae necessitatibus tempora velit consequuntur aut, voluptas aliquam beatae illo, doloribus distinctio rem provident possimus. Fugiat expedita itaque facere pariatur.</p>
+                <a href="#">View Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container port-container-2">
+            <div class=profile-wrapper>
+              <div class=profile-card>
+                <h4>Project 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis sapiente, nisi voluptate provident velit suscipit libero, aperiam modi corporis consequuntur voluptates earum quae! Porro magni nulla totam molestias iste reiciendis?</p>
+                <a href="#">View Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container port-container-3">
+            <div class=profile-wrapper>
+              <div class=profile-card>
+                <h4>Project 3</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum ut perferendis fugit maiores dolor doloribus, earum omnis quae, amet enim sed exercitationem distinctio nisi esse iusto quam quod quidem dolore! </p>
+                <a href="#">View Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container port-container-4">
+            <div class=profile-wrapper>
+              <div class=profile-card>
+                <h4>Project 4</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam impedit dicta ut repellendus veritatis cupiditate ipsa ex, odio a repudiandae debitis ipsam illo molestias delectus itaque dolor, consequuntur perferendis fugit. </p>
+                <a href="#">View Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container port-container-5">
+            <div class=profile-wrapper>
+              <div class=profile-card>
+                <h4>Project 5</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perspiciatis aspernatur rem repudiandae consequatur perferendis? Molestias quod exercitationem reiciendis quasi blanditiis sint dolorem ratione, necessitatibus officia rem quidem. Officiis, dolorem. </p>
+                <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="profile-container port-container-6">
+            <div class=profile-wrapper>
+              <div class=profile-card>
+                <h4>Project 6</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quia fuga et veritatis sit tenetur exercitationem voluptatem perspiciatis consectetur atque obcaecati itaque architecto doloribus dolorum, tempore asperiores nihil repellat quos!</p>
+                <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-section container" id=contact>
+        <div class="header contact-header">
+          <div class=inner>
+            <div data-aos=fade-up>
+              <span>Contact Me</span>
+              <span class=line></span>
+            </div>
+            <h3 data-aos=fade-up>Get In Touch</h3>
+          </div>
+        </div>
+        <div class=contact-header-text data-aos=fade-up>
+          <p>I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
+        </div>
+        <div class=contact-flex>
+          <div class=left-icons>
+            <div class=contact-info data-aos=fade-up>
+              <div class=contact-image-div>
+                <img src="media/contact-address.svg" alt=""/>
+              </div>
+              <p>Lima, Peru</p>
+            </div>
+            <div class=contact-info data-aos=fade-up>
+              <div class=contact-image-div>
+                <img src="media/contact-email.svg" alt=""/>
+              </div>
+              <a href=mailto:jose.heredia.pachas@gmail.com>jose.heredia.pachas@gmail.com</a>
+            </div>
+            <div class=contact-info data-aos=fade-up>
+              <div class=contact-image-div>
+                <img src="media/contact-phone.svg" alt=""/>
+              </div>
+              <a href=tel:+51-980-782-341>+51-980-782-341</a>
+            </div>
+          </div>
+          <form class='contact-form' data-aos='fade-up' name='contact' method='POST'>
+            <input type='hidden' name='form-name' value='contact' />
+            <p class=hidden style=visibility:hidden;height:0>
+              <label>Don’t fill this out if you're human:
+                <input name=bot-field />
+              </label>
+            </p>
+            <input type=text placeholder="Full Name" name=name required/>
+            <div>
+              <input type=email placeholder=Email name=email required/>
+              <input type=number placeholder="Phone Number" name=phone-number required/>
+            </div>
+            <textarea name=message id="" cols=30 rows=10 placeholder="Enter your message" required></textarea>
+            <button type=submit>Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class=container>
+        <div>
+          <img src="media/logo.svg" alt=""/>
+        </div>
+      <div>
+        <p>&copy; Copyright 2021. All right reserved</p>
+      </div>
+      <div>
+        <a href=https://twitter.com/JosHere40023292 target=_blank>
+          <img src="media/twitter.svg" alt="link to twitter account"/>
+        </a>
+        <a href=https://www.linkedin.com/in/josheredia26/ target=_blank>
+          <img src="media/linkedin.svg" alt="link to linkedin account"/>
+        </a>
+        <a href=https://github.com/josheredia target=_blank>
+          <img src="media/github.svg" alt="link to github account"/>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=51980782341&text=Hey!%20I'm%20looking%20forward%20to%20discussing%20with%20you%20about%20bringing%20your%20ideas%20to%20life." target=_blank>
+          <img src="media/whatsapp.svg" alt="link to whatsapp"/>
+        </a>
+      </div>
+    </div>
+    </footer>
+    <div class=page-designs>
+      <div class=grills>
+        <img src="media/side-element.svg" alt="" class=element-1 />
+        <img src="media/side-element.svg" alt="" class=element-2 />
+        <img src="media/side-element.svg" alt="" class=element-3 />
+        <img src="media/side-element.svg" alt="" class=element-4 />
+      </div>
+      <div class=page-overlay>
+        <div class="layer layer-1"></div>
+        <div class="layer layer-2"></div>
+        <div class="layer layer-3"></div>
+      </div>
+      <div class=random-moving-divs>
+        <div class=a></div>
+        <div class=b></div>
+        <div class=c></div>
+        <div class=e></div>
+        <div class=f></div>
+        <div class=g></div>
+        <div class=i></div>
+        <div class=j></div>
+        <div class=k></div>
+      </div>
+    </div>
+    <div class=mobile-nav>
+      <div class=container>
+        <nav class=nav-bar>
+          <ul class=nav-list>
+            <li class="nav-list-item mobile-link">
+              <a href="index.html#home" class=nav-link>Home</a>
+            </li>
+            <li class="nav-list-item mobile-link">
+              <a href="index.html#about" class=nav-link>About</a>
+            </li>
+            <li class="nav-list-item mobile-link">
+              <a href="index.html#services" class=nav-link>Services</a>
+            </li>
+            <li class="nav-list-item mobile-link">
+              <a href="index.html#portfolio" class=nav-link>Portfolio</a>
+            </li>
+            <li class="nav-list-item mobile-link">
+              <a href="index.html#contact" class=nav-link>Contact Me</a>
+            </li>
+            <li class="nav-list-item mobile-link case-studies">
+              <a class="nav-link case-studies" href="caseStudies.html">Case Studies</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </body>
 </html>
