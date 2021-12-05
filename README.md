@@ -1,4 +1,10 @@
 # My portfolio
 
 This is my portfolio link: <br/>
-https://josheredia.github.io/index.html#portfolio
+[My portfolio](https://josheredia.github.io/index.html#portfolio)
+
+![Project Image](media/portfolio.PNG)
+
+## Author
+
+- José Heredia
