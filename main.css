@@ -805,7 +805,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos] {
   transition-property: opacity, transform;
 }
 [data-aos^="fade"][data-aos^="fade"].aos-animate {
-  opacity: 1;
+  opacity: 0.85;
   transform: translateZ(0);
 }
 [data-aos="fade-up"] {

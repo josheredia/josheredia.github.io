@@ -11478,7 +11478,7 @@ var Client = (function (t) {
           ".hero-image-wrapper img",
           0.5,
           { x: "30rem", opacity: 0 },
-          { x: 0, opacity: 1, ease: "power1.out", delay: 2 }
+          { x: 0, opacity: 0.85, ease: "power1.out", delay: 2 }
         ),
         i()(document).ready(
           s.a.init({
