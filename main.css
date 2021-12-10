@@ -10693,6 +10693,9 @@ body {
   background-image: url("media/tweedcard.png");
 }
 .flex-container .port-container-6:before {
+  background-image: url("media/dropdownmenu.PNG");
+}
+.flex-container .port-container-7:before {
   background-image: url("media/inprogress.png");
 }
 .flex-container .profile-container:hover:before {
